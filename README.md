@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="OpenAmbient.png" alt="OpenAmbient" width="400">
+</p>
+
 # OpenAmbient
 
 **Open-source, privacy-preserving ambient environmental data collection and monitoring for clinical research.**
@@ -14,7 +18,7 @@ OpenAmbient exists to make objective environmental measurement accessible, stand
 
 ## What It Measures
 
-OpenAmbient can continuously monitors five physical environmental parameters:
+OpenAmbient can continuously monitors five parameters - individually, or all at once:
 
 - **Light** — Spectral power distribution, correlated color temperature (CCT), melanopic equivalent daylight illuminance (m-EDI), lux, and flicker detection
 - **Sound** — Frequency-weighted sound pressure levels (dBA and dBC), equivalent continuous levels, and peak metrics
@@ -55,7 +59,7 @@ Local SD card logging on each device ensures complete data continuity in the eve
 
 ### 1. Order Hardware
 
-Download production files (Gerber files, bill of materials, and pick-and-place data) from this repository and upload them to a PCB fabricator such as [JLCPCB](https://jlcpcb.com). The fabricator handles component sourcing and surface-mount assembly. Enclosure files for 3D printing (SLA recommended) are included.
+Download production files (Gerber files, bill of materials, and pick-and-place data) from this repository and upload them to a PCB fabricator such as [JLCPCB](https://jlcpcb.com). The fabricator handles component sourcing and surface-mount assembly. Enclosure files for 3D printing (SLA recommended) are included. Order additional required components such as batteries and the PIR lens.
 
 **No electrical engineering or soldering expertise is required.**
 
@@ -79,7 +83,7 @@ Monitor your fleet remotely throughout your study. Export data from the dashboar
 
 ## Cost
 
-Total bill of materials is approximately **$100–130 USD per device** at modest quantities, with the particulate matter sensor representing roughly 30% of the total. Omitting sensors you don't need reduces cost proportionally. Recurring costs are limited to a shared cloud instance and an IoT SIM per device — on the order of a few dollars per month.
+Total bill of materials is approximately **$100 to 130 USD per device** at modest quantities, with the particulate matter sensor representing roughly 30% of the total. Omitting sensors you don't need reduces cost proportionally. Recurring costs are limited to a shared cloud instance and an IoT SIM per device — on the order of a few dollars per month.
 
 ## Repository Structure
 
@@ -99,12 +103,10 @@ OpenAmbient is built for the research community. Contributions are welcome.
 
 OpenAmbient uses a dual-license structure to provide appropriate legal coverage across hardware and software:
 
-| Component | License | File |
-|---|---|---|
-| Hardware (schematics, PCB layout, BOM, Gerbers) | [CERN Open Hardware Licence v2 — Strongly Reciprocal](https://ohwr.org/cern_ohl_s_v2.txt) | [LICENSE-HARDWARE](LICENSE-HARDWARE) |
-| Enclosure (3D-printable design files) | [CERN Open Hardware Licence v2 — Strongly Reciprocal](https://ohwr.org/cern_ohl_s_v2.txt) | [LICENSE-HARDWARE](LICENSE-HARDWARE) |
-| Firmware | [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.txt) | [LICENSE](LICENSE) |
-| Platform software | [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.txt) | [LICENSE](LICENSE) |
-| Documentation | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | — |
+| Component | License |
+|---|---|
+| Hardware & Enclosure | [CERN Open Hardware Licence v2 — Strongly Reciprocal](https://ohwr.org/cern_ohl_s_v2.txt) |
+| Firmware & Platform software | [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.txt) |
+| Documentation | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 Both CERN-OHL-S and GPLv3 are strongly reciprocal — if you modify and distribute OpenAmbient, you must share your changes under the same terms. You are free to use, modify, manufacture, and sell OpenAmbient, provided modified designs and source code remain open.
