@@ -2,8 +2,6 @@
   <img src="OpenAmbient.png" alt="OpenAmbient" width="400">
 </p>
 
-# OpenAmbient
-
 **Open-source, privacy-preserving ambient environmental data collection and monitoring for clinical research.**
 
 OpenAmbient is a complete platform (hardware, firmware, and self-hosted software) for collecting objective environmental data in hospitals, clinics, and other settings where instrumentation has historically been the primary barrier to research progress.
