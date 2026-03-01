@@ -108,3 +108,7 @@ OpenAmbient uses a dual-license structure to provide appropriate legal coverage 
 | Documentation | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 Both CERN-OHL-S and GPLv3 are strongly reciprocal — if you modify and distribute OpenAmbient, you must share your changes under the same terms. You are free to use, modify, manufacture, and sell OpenAmbient, provided modified designs and source code remain open.
+
+## Acknowledgments
+
+OpenAmbient receives engineering support from Toccata Inc.
