@@ -1,0 +1,23 @@
+OpenAmbient project release files, revision V0.1, 03-03-26 (DD-MM-YY)
+
+Design using EasyEDA pro.
+
+Files comprising the release:
+
+Manufacturing:
+* Gerber files
+* BOM 
+* Pick and place data
+Schematic:
+* Schematic in PDF format
+Mechanical:
+* 3D model in .obj format
+* Board dimensions.
+* Renders of 3D model of the board.
+Source:
+* EasyEDA pro source files
+Documentation:
+* Hardware Design Documentation.
+
+Revision history:
+V0.1: Initial revision
