@@ -4,6 +4,11 @@
 
 **Open-source, privacy-preserving ambient environmental data collection and monitoring for clinical research.**
 
+![GitHub release](https://img.shields.io/github/v/release/noahlittle/OpenAmbient?include_prereleases&style=flat-square)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue?style=flat-square&logo=gnu)](gpl-3.0.txt)
+[![License: CERN-OHL-S](https://img.shields.io/badge/Hardware-CERN--OHL--S-orange?style=flat-square)](cern_ohl_s_v2.txt)
+[![Platform: ESP-IDF](https://img.shields.io/badge/Firmware-ESP--IDF-000000?style=flat-square&logo=espressif)](https://idf.espressif.com/)
+
 <p align="center">
   <img src="/hardware/mechanical/pictures/oblique.png" alt="Oblique view of OpenAmbient board" width="450">
 </p>
@@ -32,7 +37,7 @@ Additional contextual data includes passive infrared motion/occupancy detection 
 
 All measurements are reported in established SI units.
 
-## Design Philosophy
+## Design Principles
 
 | Principle | Description |
 |---|---|
@@ -96,6 +101,15 @@ Total bill of materials is approximately **$100 to 130 USD per device** at modes
 ├── platform/          # Self-hosted data platform (backend + dashboard)
 └── docs/              # Documentation, deployment guides, calibration procedures
 ```
+
+## Roadmap
+
+| Component | Status |
+|---|---|
+| Hardware (schematics, PCB, enclosure) | Released |
+| Firmware | In progress |
+| Platform (backend + dashboard) | In progress |
+| Documentation | In progress |
 
 ## Contributing
 
